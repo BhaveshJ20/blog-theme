@@ -1,0 +1,69 @@
+// ------------------Variables-------------------//
+
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-sans-serif:  'Roboto Slab', sans-serif !default;
+$font-awesome: FontAwesome !default;
+$font-size-13: 13px !default; // ~13px
+$font-size-30: 30px !default; // ~30px
+$font-size-25: 25px !default; // ~25px
+$font-size-21: 21px !default; // ~21px
+$font-size-19: 19px !default; // ~19px
+$font-size-17: 17px !default; // ~17px
+$font-size-16: 16px !default; // ~16px
+$font-size-14: 14px !default; // ~14px
+$outline: none;
+
+// container
+$container_width: 1170px;
+$left_bar_width: 70%;
+$side_bar_width: 30%;
+
+// background color 
+$black_bg: #111111;
+$theme_bg: #db2b83;
+
+
+//color 
+$theme_color: #db2b83;
+$white: #FFF;
+$black: #111;
+$black0:#000;
+$gray1: #333;
+$gray2: #444;
+$body-text:#666;
+
+//** Link hover color.
+$link-hover-transition: 0.5s !default;
+
+//** Link hover decoration.
+$link-hover-decoration: none !default;
+
+// border
+$border_color:#dbdbdb;
+$border_white:#FFF;
+
+
+// Font size
+$small_font: 10px;
+$media_font: 15px;
+$pline-height: 20px;
+$hline-height: 22px;
+$bold_font: 20px;
+
+
+//width
+$full-width:                     100%; 
+
+//liststyle
+$liststyle:  					 none;	                
+
+//liststyle
+$textcenter:  					 center;	
+
+
+
+@mixin transition($type,$time,$function){
+	-moz-transition: $type $time $function;
+	-webkit-transition: $type $time $function;
+	transition: $type $time $function;
+}

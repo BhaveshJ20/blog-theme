@@ -1,0 +1,25 @@
+// mixins
+
+@mixin transition($type,$time,$function){
+	-moz-transition: $type $time $function;
+	-webkit-transition: $type $time $function;
+	transition: $type $time $function;
+}
+
+@mixin rotate($value){
+	-webkit-transform: rotate($value);
+	-moz-transform: rotate($value);
+	transform: rotate($value);
+}
+
+@mixin radius($value){
+	-webkit-border-radius: $value;
+	-moz-border-radius: $value;
+	border-radius: $value;
+}
+@mixin transition($property, $time, $effect ){
+	-webkit-transition: $property $time $effect;
+	-moz-transition: 	$property $time $effect;
+	-o-transition: 		$property $time $effect;
+	transition: 		$property $time $effect;
+}
